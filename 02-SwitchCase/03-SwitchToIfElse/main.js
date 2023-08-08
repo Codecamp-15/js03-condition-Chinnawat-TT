@@ -1,26 +1,33 @@
+// จงแปลงโค้ดเป็นแบบ if-else
+
+// ```js
+// switch (browser) {
+//   case "Edge":
+//     alert("You've got the Edge!");
+//     break;
+//   case "Chrome":
+//   case "Firefox":
+//   case "Safari":
+//   case "Opera":
+//     alert("Okay we support these browsers too");
+//     break;
+//   default:
+//     alert("We hope that this page looks ok!");
+// }
+// ```
+
 let browser = prompt("what's you like browser")
 
-// switch (browser) {
-//     case "Edge":
-//       alert("You've got the Edge!");
-//       break;
-//     case "Chrome":
-//     case "Firefox":
-//     case "Safari":
-//     case "Opera":
-//       alert("Okay we support these browsers too");
-//       break;
-//     default:
-//       alert("We hope that this page looks ok!");
-//   }
+if (browser =="Chrome"&&"Firefox"&&"Safari"&&"Opera"){
 
-if (browser === null || browser.trim() === '' || isNaN(browser)) {
-    alert('We hope that this page looks ok!');
+    alert("Okay we support these browsers too");
 }
-else if (browser ='Edge'){
+else if (browser =="Edge"){
     alert("You've got the Edge!");
 }
-else if (browser ='Chrome','Firefox','Safari','Opera'){
-    alert("Okay we support these browsers too");
+else {
+    alert("We hope that this page looks ok!");
 
 }
+
+// ----- Completed -----

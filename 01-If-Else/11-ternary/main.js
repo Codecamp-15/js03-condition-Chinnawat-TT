@@ -10,4 +10,13 @@ let login = prompt("Enter username");
 //   message = "";
 // }
 
-//let message = login == "Employee" ? "Hello": login === "Derector" ? : Greeting
+let message =
+  login === "Employee"
+    ? "Hello"
+    : login === "Director"
+    ? "Greeting"
+    : login === ""
+    ? "No login"
+    : "";
+
+// ----- Completed -----

@@ -85,3 +85,5 @@ else if (z >= x && z >= y) {
     
 }
 console.log(`${max} : ${mid} : ${min}`  );
+
+// ----- Completed -----
